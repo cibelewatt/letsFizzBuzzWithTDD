@@ -3,7 +3,7 @@ using Xunit;
 
 namespace LetsFizzBuzz.UnitTests
 {
-    public class FizzBuzzTest
+    public class FizzBuzzUnitTest
     {
         [Fact]
         public void Test1()
