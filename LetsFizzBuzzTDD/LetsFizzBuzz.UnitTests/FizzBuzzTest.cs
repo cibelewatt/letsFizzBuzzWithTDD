@@ -8,7 +8,7 @@ namespace LetsFizzBuzz.UnitTests
         [Fact]
         public void Test1()
         {
-
+            FizzBuzz
         }
     }
 }
