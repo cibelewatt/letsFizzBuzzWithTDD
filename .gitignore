@@ -1,0 +1,22 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/LetsFizzBuzzTDD/LetsFizzBuzz.Domain/obj/project.nuget.cache
+/LetsFizzBuzzTDD/LetsFizzBuzz.Domain/obj/project.assets.json
+/LetsFizzBuzzTDD/LetsFizzBuzz.Domain/obj/LetsFizzBuzz.Domain.csproj.nuget.g.targets
+/LetsFizzBuzzTDD/LetsFizzBuzz.Domain/obj/LetsFizzBuzz.Domain.csproj.nuget.g.props
+/LetsFizzBuzzTDD/LetsFizzBuzz.Domain/obj/LetsFizzBuzz.Domain.csproj.nuget.dgspec.json
+/LetsFizzBuzzTDD/LetsFizzBuzz.Domain/obj/Debug/net5.0/LetsFizzBuzz.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/LetsFizzBuzzTDD/LetsFizzBuzz.Domain/obj/Debug/net5.0/LetsFizzBuzz.Domain.csproj.AssemblyReference.cache
+/LetsFizzBuzzTDD/LetsFizzBuzz.Domain/obj/Debug/net5.0/LetsFizzBuzz.Domain.assets.cache
+/LetsFizzBuzzTDD/LetsFizzBuzz.Domain/obj/Debug/net5.0/LetsFizzBuzz.Domain.AssemblyInfoInputs.cache
+/LetsFizzBuzzTDD/LetsFizzBuzz.UnitTests/obj/project.nuget.cache
+/LetsFizzBuzzTDD/LetsFizzBuzz.UnitTests/obj/project.assets.json
+/LetsFizzBuzzTDD/LetsFizzBuzz.UnitTests/obj/LetsFizzBuzz.UnitTests.csproj.nuget.g.targets
+/LetsFizzBuzzTDD/LetsFizzBuzz.UnitTests/obj/LetsFizzBuzz.UnitTests.csproj.nuget.g.props
+/LetsFizzBuzzTDD/LetsFizzBuzz.UnitTests/obj/LetsFizzBuzz.UnitTests.csproj.nuget.dgspec.json
+/LetsFizzBuzzTDD/LetsFizzBuzz.UnitTests/obj/Debug/net5.0/LetsFizzBuzz.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+/LetsFizzBuzzTDD/LetsFizzBuzz.UnitTests/obj/Debug/net5.0/LetsFizzBuzz.UnitTests.csproj.AssemblyReference.cache
+/LetsFizzBuzzTDD/LetsFizzBuzz.UnitTests/obj/Debug/net5.0/LetsFizzBuzz.UnitTests.assets.cache
+/LetsFizzBuzzTDD/LetsFizzBuzz.UnitTests/obj/Debug/net5.0/LetsFizzBuzz.UnitTests.AssemblyInfoInputs.cache
