@@ -6,6 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.36.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\LetsFizzBuzz.Domain\LetsFizzBuzz.Domain.csproj" />
   </ItemGroup>
 
