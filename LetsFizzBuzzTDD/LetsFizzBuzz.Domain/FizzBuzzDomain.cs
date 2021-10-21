@@ -8,7 +8,7 @@ namespace LetsFizzBuzz.Domain
 {
     public class FizzBuzzDomain
     {
-        public static string GetValue(int input)
+        public string GetValue(int input)
         {
             if (input % 3 != 0 && input % 5 != 0)
             {
