@@ -5,16 +5,20 @@ using LetsFizzBuzz.Domain;
 namespace LetsFizzBuzz.UnitTests
 {
     public class FizzBuzzUnitTest
-    {
-        [Fact]
-        public void FizzBuzzTest()
+    {      
+        private readonly FizzBuzzDomain _fizz;
+
+        public FizzBuzzUnitTest()
         {
-            [Fact]
-            void Returns_1_When_Number_Is_1()
+            _fizz = new FizzBuzzDomain();
+        }
+
+        [Fact]
+            public void Returns_1_When_Number_Is_1()
             {
                 //Arrange && Act
                 int input = 1;
-                string output = FizzBuzzDomain.GetValue(input);
+                string output = _fizz.GetValue(input);
 
                 //Assert
                 Assert.Equal("1", output);
@@ -25,7 +29,7 @@ namespace LetsFizzBuzz.UnitTests
             {
                 //Arrange && Act
                 int input = 2;
-                string output = FizzBuzzDomain.GetValue(input);
+                string output = _fizz.GetValue(input);
 
                 //Assert
                 Assert.Equal("2", output);
@@ -36,7 +40,7 @@ namespace LetsFizzBuzz.UnitTests
             {
                 //Arrange && Act
                 int input = 3;
-                string output = FizzBuzzDomain.GetValue(input);
+                string output = _fizz.GetValue(input);
 
                 //Assert
                 Assert.Equal("Fizz", output);
@@ -47,7 +51,7 @@ namespace LetsFizzBuzz.UnitTests
             {
                 //Arrange && Act
                 int input = 5;
-                string output = FizzBuzzDomain.GetValue(input);
+                string output = _fizz.GetValue(input);
 
                 //Assert
                 Assert.Equal("Buzz", output);
@@ -61,7 +65,7 @@ namespace LetsFizzBuzz.UnitTests
             void Fizz_When_Numbers_Are_Divisible_By_3(int input)
             {
                 //Arrange && Act
-                string output = FizzBuzzDomain.GetValue(input);
+                string output = _fizz.GetValue(input);
 
                 //Assert
                 Assert.Equal("Fizz", output);
@@ -74,7 +78,7 @@ namespace LetsFizzBuzz.UnitTests
             void Buzz_When_Numbers_Are_Divisible_by_5(int input)
             {
                 //Arrange && Act
-                string output = FizzBuzzDomain.GetValue(input);
+                string output = _fizz.GetValue(input);
 
                 //Assert
                 Assert.Equal("Buzz", output);
@@ -86,7 +90,7 @@ namespace LetsFizzBuzz.UnitTests
             void FizzBuzz_When_Numbers_Are_Divisible_By_3_And_5(int input)
             {
                 //Arrange && Act
-                string output = FizzBuzzDomain.GetValue(input);
+                string output = _fizz.GetValue(input);
 
                 //Assert
                 Assert.Equal("FizzBuzz", output);
@@ -98,7 +102,7 @@ namespace LetsFizzBuzz.UnitTests
             void Input_Numbers_When_The_Are_Not_Divisible_By_3_or_5(int input, string expectedresult)
             {
                 //Arrange && Act
-                string output = FizzBuzzDomain.GetValue(input);
+                string output = _fizz.GetValue(input);
 
                 //Assert
                 Assert.Equal(expectedresult, output);
@@ -109,11 +113,11 @@ namespace LetsFizzBuzz.UnitTests
             {
                 var input = 0;
                 //Arrange && Act
-                string output = FizzBuzzDomain.GetValue(input);
+                string output = _fizz.GetValue(input);
 
                 //Assert
                 Assert.Equal("FizzBuzz", output);
             }
-        }
     }
 }
+
